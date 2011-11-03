@@ -1,3 +1,9 @@
+# revision 24286
+# category Package
+# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-chem
+# catalog-date 2011-10-14 10:39:39 +0200
+# catalog-license lppl1.3
+# catalog-version 1.1e
 Name:		texlive-biblatex-chem
 Version:	1.1e
 Release:	1
@@ -58,6 +64,7 @@ journals. A comprehensive set of examples of use is included.
 %doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem.bib
 %doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +75,5 @@ journals. A comprehensive set of examples of use is included.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
