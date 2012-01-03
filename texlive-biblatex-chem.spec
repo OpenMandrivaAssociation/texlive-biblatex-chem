@@ -6,7 +6,7 @@
 # catalog-version 1.1e
 Name:		texlive-biblatex-chem
 Version:	1.1e
-Release:	1
+Release:	2
 Summary:	Chemistry styles for biblatex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-chem
