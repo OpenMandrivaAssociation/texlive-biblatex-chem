@@ -1,13 +1,13 @@
-# revision 26517
+# revision 27440
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-chem
-# catalog-date 2012-05-18 19:57:07 +0200
+# catalog-date 2012-08-17 00:45:07 +0200
 # catalog-license lppl1.3
 # catalog-version 1.1g
 Name:		texlive-biblatex-chem
 Version:	1.1g
-Release:	1
-Summary:	Chemistry styles for biblatex
+Release:	2
+Summary:	A set of biblatex implementations of chemistry-related bibliography styles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-chem
 License:	LPPL1.3
