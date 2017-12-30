@@ -1,12 +1,6 @@
-# revision 31874
-# category Package
-# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-chem
-# catalog-date 2013-10-09 23:41:19 +0200
-# catalog-license lppl1.3
-# catalog-version 1.1l
 Name:		texlive-biblatex-chem
-Version:	1.1l
-Release:	9
+Version:	1.1t
+Release:	1
 Summary:	A set of biblatex implementations of chemistry-related bibliography styles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-chem
@@ -35,26 +29,8 @@ journals. A comprehensive set of examples of use is included.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-acs.bbx
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-acs.cbx
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-angew.bbx
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-angew.cbx
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-biochem.bbx
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-biochem.cbx
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-rsc.bbx
-%{_texmfdistdir}/tex/latex/biblatex-chem/chem-rsc.cbx
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/README
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-acs.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-acs.tex
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-angew.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-angew.tex
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-biochem.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-biochem.tex
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-rsc.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem-rsc.tex
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem.bib
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem.pdf
-%doc %{_texmfdistdir}/doc/latex/biblatex-chem/biblatex-chem.tex
+%{_texmfdistdir}/tex/latex/biblatex-chem
+%doc %{_texmfdistdir}/doc/latex/biblatex-chem
 
 #-----------------------------------------------------------------------
 %prep
