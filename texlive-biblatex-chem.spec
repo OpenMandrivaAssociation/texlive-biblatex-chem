@@ -1,6 +1,6 @@
 Name:		texlive-biblatex-chem
 Version:	1.1u
-Release:	1
+Release:	2
 Summary:	A set of biblatex implementations of chemistry-related bibliography styles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-chem
